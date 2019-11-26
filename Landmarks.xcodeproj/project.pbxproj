@@ -20,6 +20,8 @@
 		0F0D7C792388819E00D0C478 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0D7C782388819E00D0C478 /* Landmark.swift */; };
 		0F0D7C7B238882B600D0C478 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F0D7C7A238882B600D0C478 /* landmarkData.json */; };
 		0F0D7C7D2388841A00D0C478 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0D7C7C2388841A00D0C478 /* Data.swift */; };
+		0F6E7422238D6C990051F4B1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E7421238D6C990051F4B1 /* Home.swift */; };
+		0F6E7424238D74BB0051F4B1 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E7423238D74BB0051F4B1 /* CategoryRow.swift */; };
 		0FB521DD238C074800FB21C8 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB521DC238C074800FB21C8 /* LandmarkRow.swift */; };
 		0FB521EA238C0C2C00FB21C8 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FB521DE238C0C2B00FB21C8 /* chilkoottrail.jpg */; };
 		0FB521EB238C0C2C00FB21C8 /* icybay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FB521DF238C0C2B00FB21C8 /* icybay.jpg */; };
@@ -81,6 +83,8 @@
 		0F0D7C782388819E00D0C478 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		0F0D7C7A238882B600D0C478 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		0F0D7C7C2388841A00D0C478 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		0F6E7421238D6C990051F4B1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0F6E7423238D74BB0051F4B1 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		0FB521DC238C074800FB21C8 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		0FB521DE238C0C2B00FB21C8 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		0FB521DF238C0C2B00FB21C8 /* icybay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icybay.jpg; sourceTree = "<group>"; };
@@ -201,6 +205,8 @@
 				0F0D7C4B2388612300D0C478 /* LaunchScreen.storyboard */,
 				0FB521DC238C074800FB21C8 /* LandmarkRow.swift */,
 				0FB521F6238C0EDF00FB21C8 /* LandmarkList.swift */,
+				0F6E7421238D6C990051F4B1 /* Home.swift */,
+				0F6E7423238D74BB0051F4B1 /* CategoryRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -403,12 +409,14 @@
 				0FB52207238C79F900FB21C8 /* GraphCapsule.swift in Sources */,
 				0F0D7C73238876E200D0C478 /* MapView.swift in Sources */,
 				0FB521F7238C0EDF00FB21C8 /* LandmarkList.swift in Sources */,
+				0F6E7424238D74BB0051F4B1 /* CategoryRow.swift in Sources */,
 				0F0D7C432388612100D0C478 /* SceneDelegate.swift in Sources */,
 				0F0D7C452388612100D0C478 /* LandmarkDetail.swift in Sources */,
 				0FB521DD238C074800FB21C8 /* LandmarkRow.swift in Sources */,
 				0FB521FB238C654200FB21C8 /* UserData.swift in Sources */,
 				0FB52205238C79BF00FB21C8 /* HikeGraph.swift in Sources */,
 				0F0D7C792388819E00D0C478 /* Landmark.swift in Sources */,
+				0F6E7422238D6C990051F4B1 /* Home.swift in Sources */,
 				0FB521FF238C792800FB21C8 /* HikeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
